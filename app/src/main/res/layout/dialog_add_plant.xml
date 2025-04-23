@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/inputPlantName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter plant name"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/inputMinLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter minimum level (0-100)"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/inputMaxLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter maximum level (0-100)"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnSavePlant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Plant"
+        android:backgroundTint="#3E6032"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

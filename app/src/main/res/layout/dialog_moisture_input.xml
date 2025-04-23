@@ -1,0 +1,29 @@
+<!-- dialog_moisture_input.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Soil Moisture Level (0-100):"
+        android:textSize="16sp"
+        android:paddingBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/inputMoisture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Moisture Level"/>
+
+    <Button
+        android:id="@+id/btnSetLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#3E6032"
+        android:text="Set Moisture Level" />
+</LinearLayout>

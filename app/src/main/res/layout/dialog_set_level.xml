@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Minimum Level"
+        android:textSize="16sp"
+        android:paddingBottom="5dp"/>
+
+    <Spinner
+        android:id="@+id/minLevelSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Maximum Level"
+        android:textSize="16sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"/>
+
+    <Spinner
+        android:id="@+id/maxLevelSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"/>
+
+    <Button
+        android:id="@+id/btnSetLevel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#3E6606"
+        android:text="Set Levels" />
+</LinearLayout>

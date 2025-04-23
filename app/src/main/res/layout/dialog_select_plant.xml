@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtSelectOrAddPlant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a plant or Add your plant here"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#3E6032"
+
+        />
+
+    <Button
+        android:id="@+id/btnAddPlant"
+        android:layout_width="105dp"
+        android:layout_height="35dp"
+        android:text="Add Plant"
+        android:textSize="12sp"
+        android:backgroundTint="#3E6032"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerPlants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Error Message TextView -->
+    <TextView
+        android:id="@+id/spinnerErrorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="14sp"
+        android:visibility="gone"
+        android:paddingTop="4dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:backgroundTint="#3E6032"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="10dp" />
+
+
+
+
+</LinearLayout>

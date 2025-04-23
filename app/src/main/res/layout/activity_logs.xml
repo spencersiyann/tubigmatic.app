@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAFAFA">
+
+    <!-- Green Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#8AA46C"
+        android:gravity="center"
+        android:padding="8dp">
+
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="-55dp"
+            app:srcCompat="@drawable/backbutton" />
+
+        <Button
+            android:id="@+id/btnBackLogs"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="-50dp"
+            android:backgroundTint="#00EF1111"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/logo1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/tubigmaticlogowhitebg" />
+
+        <TextView
+            android:id="@+id/logsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water Pump Logs"
+            android:layout_marginStart="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/logsListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:padding="8dp" />
+
+</LinearLayout>
